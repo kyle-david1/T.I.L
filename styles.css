@@ -8,15 +8,14 @@ body {
   background-color: #292524;
   color: #fafaf9;
   font-family: "Sono", sans-serif;
-  padding: 40px;
+  padding: 48px 64px;
 }
 
 /* Main LAYOUT */
 .container {
-  width: 1000px;
-  background-color: orangered;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1500px;
+
+  margin: 0 auto;
 }
 
 .header {
@@ -45,6 +44,11 @@ body {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.logo img {
+  width: 68px;
+  height: 68px;
 }
 
 h1 {
@@ -85,4 +89,26 @@ h1 {
 
 ul {
   list-style: none;
+}
+
+.source:link,
+.source:visited {
+  color: #a8a29e;
+  text-decoration: none;
+  margin-left: 12px;
+  transition: 0.3s;
+}
+
+.source:hover,
+.source:active {
+  color: #3b82f6;
+}
+
+.btn {
+  font-family: "Coiny", sans-serif;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 16px 0 13px;
+  background-image: linear-gradient(to right, #3b82f6, #eab308);
 }
